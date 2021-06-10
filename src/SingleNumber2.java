@@ -1,7 +1,6 @@
 import java.util.Arrays;
-import java.util.Collections;
 
-class Solution {
+class SingleNumber2 {
     static public int singleNumber(int[] nums) {
         Arrays.sort(nums);
         if(nums.length == 1) return nums[0];
